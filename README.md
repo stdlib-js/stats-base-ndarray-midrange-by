@@ -50,7 +50,7 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-midrange-by@esm/index.mjs';
+import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-midrange-by@v0.1.0-esm/index.mjs';
 ```
 
 #### midrangeBy( arrays, clbk\[, thisArg ] )
@@ -137,7 +137,7 @@ var count = ctx.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-midrange-by@esm/index.mjs';
+import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-midrange-by@v0.1.0-esm/index.mjs';
 
 function clbk( value ) {
     return value * 2.0;
